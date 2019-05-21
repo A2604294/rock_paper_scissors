@@ -30,7 +30,7 @@ function game() {
     let computerScore = 0;
 
     for (var i = 0; i < 5; i++) {
-        const playerSelection = window.prompt("Choose a shape: ");
+        const playerSelection = window.prompt("Choose a weapon: ");
         const computerSelection = computerPlay();
 
         //takes player input and makes the first letter capital and the rest lower.
