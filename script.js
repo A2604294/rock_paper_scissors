@@ -69,7 +69,7 @@ function displayFinalWinner() {
         finalWinner.textContent = "You win!"
 
     } else if (computerScore > playerScore) {
-        finalWinner.textContent = "You win!"
+        finalWinner.textContent = "You lose!"
 
     } else {
         finalWinner.textContent = "Tie"
